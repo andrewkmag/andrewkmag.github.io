@@ -1,4 +1,4 @@
-   (function($) {
+(function($) {
     "use strict"; // Start of use strict
   
     // Smooth scrolling using jQuery easing
@@ -59,6 +59,14 @@
         $(this).removeClass("floating-label-form-group-with-focus");
       });
     });
-  
-  })(jQuery); // End of use strict
+
+    // Pause videos on modal close
+    $(function(){
+      $('#portfolioModal1').modal({
+          show: false
+      }).on('hidden.bs.modal', function(){
+          $(this).find('video')[0].pause();
+      });
+  });
+})(jQuery); // End of use strict
   

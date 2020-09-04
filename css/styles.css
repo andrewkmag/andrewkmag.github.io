@@ -148,12 +148,12 @@ sup {
 }
 
 a {
-  color: #1abc9c;
+  color: #aa55ffe6;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #117964;
+  color: #8013EC;
   text-decoration: underline;
 }
 
@@ -10192,6 +10192,23 @@ h3 {
   opacity: 1;
 }
 
+.video-container {
+  overflow: hidden;
+  /* 16:9 aspect ratio */
+  padding-top: 56.25%;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.video-container .video {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+
 .floating-label-form-group {
   position: relative;
   border-bottom: 1px solid #e9ecef;
@@ -10236,6 +10253,21 @@ h3 {
 
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #e9ecef;
+}
+
+.contact-icon {
+  margin-right: 2rem;
+}
+
+.email-contact-heading {
+  font-size: 1.5rem;
+}
+
+@media (min-width: 992px) {
+  .email-contact-heading {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
 }
 
 .footer {
