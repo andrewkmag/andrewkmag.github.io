@@ -10259,8 +10259,25 @@ form .row:first-child .floating-label-form-group {
   margin-right: 2rem;
 }
 
-.email-contact-heading {
-  font-size: 1.5rem;
+@media (min-width: 320px) {
+  .email-contact-heading {
+    font-size: 0.9rem;
+    line-height: 3.5rem;
+  }
+}
+
+@media (min-width: 400px) {
+  .email-contact-heading {
+    font-size: 1.2rem;
+    line-height: 3.5rem;
+  }
+}
+
+@media (min-width: 500px) {
+  .email-contact-heading {
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+  }
 }
 
 @media (min-width: 992px) {
