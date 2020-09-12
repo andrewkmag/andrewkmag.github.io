@@ -15,6 +15,10 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <!-- Add AOS Library -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <!-- Add Animate.css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -38,19 +42,19 @@
         </nav>
         <!-- Masthead-->
         <header class="masthead bg-primary text-white text-center">
-            <div class="container d-flex align-items-center flex-column">
+            <div class="container d-flex align-items-center flex-column ">
                 <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar mb-5" src="assets/img/andrew_avatar.svg" alt="" />
+                <img class="masthead-avatar mb-5 animate__animated animate__fadeInDown" src="assets/img/andrew_avatar.svg" alt=""/>
                 <!-- Masthead Heading-->
-                <h1 class="masthead-heading text-uppercase mb-0">Andrew Magdurulan</h1>
+                <h1 class="masthead-heading text-uppercase mb-0 animate__animated animate__fadeInLeft" >Andrew Magdurulan</h1>
                 <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
+                <div class="divider-custom divider-light animate__animated animate__zoomIn">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-laptop-code"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">Software Engineer | Software Systems Major</p>
+                <p class="masthead-subheading font-weight-light mb-0 animate__animated animate__fadeInRight">Software Engineer | Software Systems Major</p>
             </div>
         </header>
         <!-- Portfolio Section-->
@@ -68,7 +72,7 @@
                 <div class="row">
                     <!-- Portfolio Item 1-->
                     <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1" data-aos="zoom-in">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
@@ -77,7 +81,7 @@
                     </div>
                     <!-- Portfolio Item 2-->
                     <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2" data-aos="zoom-in">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
@@ -86,7 +90,7 @@
                     </div>
                     <!-- Portfolio Item 3-->
                     <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3" data-aos="zoom-in">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
@@ -135,13 +139,13 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- About Section Content-->
-                <div class="row">
-                    <div class="col-lg-4 ml-auto"><p class="lead">I am a very social person, easy to get along with 
+                <div class="row" style="overflow-x: hidden">
+                    <div class="col-lg-4 ml-auto" ><p class="lead" data-aos="slide-right">I am a very social person, easy to get along with 
 						and I love meeting new people. I am eager when it comes to learning new programming languages 
 						and broadening my skillset in any position in the IT industry -- whether it be in game/app development,
 						 web design, or quality assurance. I am proficient in OOP languages (mainly C++),
 						 knowledgeable in server-side languages such as Node js, Java, and some Python. </p></div>
-                    <div class="col-lg-4 mr-auto"><p class="lead">Also,
+                    <div class="col-lg-4 mr-auto"><p class="lead" data-aos="slide-left">Also,
 						 I've developed numerous projects using Agile methodology throughout my academic career. 
 						 And currently upon receiving my degree in Software Systems I continue to sharpen my technical skills through
 						 game development using UE4 and Unity for PC, as well as developing mobile apps with Android Studio.</p></div>
@@ -226,7 +230,8 @@
                                         </video>
                                     </div>
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">A third person shooter game. Objective survive waves of enemy robots. 
+                                    <p class="mb-5">A very simple third person shooter game. Objective eliminate all enemies. 
+                                        Game Restarts when all enemies are dead or the player dies. 
                                         Made using Unreal Engine 4 and C++. Currently in early-works of development. See github repo 
                                         <a href="https://github.com/andrewkmag/BangingBots">here</a> for source code.</p>
                                     <button class="btn btn-primary" data-dismiss="modal">
@@ -422,5 +427,12 @@
         <script src="assets/mail/contact_me.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <!-- AOS JS -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                once: true
+            });
+        </script>
     </body>
 </html>
