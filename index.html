@@ -71,24 +71,40 @@
                 <!-- Portfolio Grid Items-->
                 <div class="row">
                     <!-- Portfolio Item 1-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1" data-aos="zoom-in">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                    <div class="col-md-6 col-lg-4 mb-5 ">
+                        <div class="portfolio-item mx-auto project" data-toggle="modal" data-target="#portfolioModal1" data-aos="zoom-in">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <div class="project__card">
+                                    <div class="project__image">
+                                        <img class="img-fluid" src="assets/img/portfolio/bangingbots_sc_1.png" alt="" />
+                                    </div>
+                                    <div class="project__detail">
+                                        <h2 class="project__title">
+                                            <div>Shooter Demo</div>
+                                        </h2>
+                                        <p class="project__category">C++ | Unreal Engine 4 Project</p>
+                                    </div>
+                                </div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/bangingbots_sc_1.png" alt="" />
                         </div>
                     </div>
                     <!-- Portfolio Item 2-->
                     <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2" data-aos="zoom-in">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                        <div class="portfolio-item mx-auto project" data-toggle="modal" data-target="#portfolioModal2" data-aos="zoom-in">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <div class="project__card">
+                                    <div class="project__image">
+                                        <img class="img-fluid" src="assets/img/portfolio/shooter.png" alt="" />
+                                    </div>
+                                    <div class="project__detail">
+                                        <h2 class="project__title">Multiplayer Shooter</h2>
+                                        <p class="project__category">C++ | Unreal Engine 4 Project</p>
+                                    </div>
+                                </div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/shooter.png" alt="" />
                         </div>
                     </div>
-                    <!-- Portfolio Item 3-->
+                    <!-- Portfolio Item 3 
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3" data-aos="zoom-in">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
@@ -216,7 +232,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-12">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal1Label">Banging Bots</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal1Label">Simple Shooter</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -233,7 +249,7 @@
                                     <p class="mb-5">A very simple third person shooter game. Objective eliminate all enemies. 
                                         Game Restarts when all enemies are dead or the player dies. 
                                         Made using Unreal Engine 4 and C++. Currently in early-works of development. See github repo 
-                                        <a href="https://github.com/andrewkmag/BangingBots">here</a> for source code.</p>
+                                        <a href="https://github.com/andrewkmag/ThirdPersonShooterDemo">here</a> for source code.</p>
                                     <button class="btn btn-primary" data-dismiss="modal">
                                         <i class="fas fa-times fa-fw"></i>
                                         Close Window
@@ -261,7 +277,7 @@
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-mobile-alt"></i></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-gamepad"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
@@ -434,5 +450,8 @@
                 once: true
             });
         </script>
+        <!-- Hover3D - jQuery -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.hover3d.js"></script>
     </body>
 </html>
