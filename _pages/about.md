@@ -1,10 +1,10 @@
 ---
 layout: page
-title: About
+title: About Me
 description: I'm a creative and curious person who has a lot of experience and fond moments working with design, websites, and marketing.
 permalink: /about/
-image: '/images/01-2.jpg'
-image_caption: 'Photo by [Bruce Dixon](https://unsplash.com/photos/3M9WJQVHzog) on [Unsplash](https://unsplash.com/)'
+image: '/images/01-andrew-2.jpg'
+image_caption: 'Photo by Andrew Magdurulan'
 ---
 
 Hymnals are books with collections of musical hymns that can typically be found in churches. Prayerbooks or missals are books that contain written prayers and are commonly carried by monks, nuns, and other devoted followers or clergy. Lap books are a learning tool created by students.
@@ -13,11 +13,11 @@ There are several other types of books which are not commonly found under this s
 
 <div class="gallery-box">
   <div class="gallery">
-    <img src="/images/100.jpg" loading="lazy">
-    <img src="/images/101.jpg" loading="lazy">
-    <img src="/images/102.jpg" loading="lazy">
+    <img src="/images/01-andrew-child.jpg" loading="lazy">
+    <img src="/images/02-andrew-child.jpg" loading="lazy">
+    <img src="/images/03-andrew-camp.jpg" loading="lazy">
   </div>
-  <em>Gallery / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em>
+  <em>Gallery / Andrew Magdurulan</em>
 </div>
 
 Dummy books (or faux books) are books that are designed to imitate a real book by appearance to deceive people, some books may be whole with empty pages, others may be hollow or in other cases, there may be a whole panel carved with spines which are then painted to look like books, titles of some books may also be fictitious.
@@ -28,9 +28,9 @@ The advent of paperback books in the 20th century led to an explosion of popular
 
 <div class="gallery-box">
   <div class="gallery">
-    <img src="/images/103.jpg" loading="lazy">
+    <img src="/images/01-andrew-collab.jpg" loading="lazy">
   </div>
-  <em>Photo by <a href="https://unsplash.com/photos/TMpQ5R9mbOc" target="_blank">Caroline Hernandez</a></em>
+  <em>Photo by Josh Fernandez</a></em>
 </div>
 
 This form of the book chain has hardly changed since the eighteenth century, and has not always been this way. Thus, the author has asserted gradually with time, and the copyright dates only from the nineteenth century. For many centuries, especially before the invention of printing, each freely copied out books that passed through his hands, adding if necessary his own comments. Similarly, bookseller and publisher jobs have emerged with the invention of printing, which made the book an industrial product, requiring structures of production and marketing.
