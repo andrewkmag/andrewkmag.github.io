@@ -27,6 +27,6 @@ The current set of valid ability checks to perform are: "athletics", "acrobatics
 
 See video below for another usage example and live bot functionality within a discord server:
 
-<p><iframe src="https://player.vimeo.com/video/148003889?h=d36b8b4cbb" loading="lazy" width="640" height="360" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe src="/videos/diceRollerBot example - 2023-09-25 23-48-16.mp4" loading="lazy" width="640" height="360" frameborder="0" allowfullscreen></iframe></p>
 
 The diceRoller discord bot is still being actively maintained by myself. Plans are set for additional functionality. This includes but is not limited to adding classes that are unique to each member in the server, modifiers that can be applied to rolls based on the member's chosen class, and consequences/benefits based on successful or failed checks.
