@@ -18,12 +18,8 @@ menu__settings:
       url: '/work/'
     - title: 'Writing'
       url: '/blog/'
-    - title: 'Pages'
-      submenu:
-      - url: '/contact/'
-        title: 'Contact'
-      - url: '/elements/'
-        title: 'Elements'
+    - title: 'Contact'
+      url: '/contact/'
 
 
 #-------------------------------
@@ -98,8 +94,8 @@ mailchimp:
 # Work Settings
 work:
   enable: true
-  work__title: Work
-  work__description: A collection of all of my favorite work including both solo and collaborated projects!
+  work__title: Projects
+  work__description: A collection of all of my favorite projects including both solo and collaborated projects!
 
 
 #-------------------------------
